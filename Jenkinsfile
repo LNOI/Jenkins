@@ -1,6 +1,6 @@
 pipeline{
     agent{
-        label "node"
+        label "slave-ubuntu-aws"
     }
     stages{
         stage("A"){
